@@ -7,7 +7,7 @@ Talleres impartidos en CETMAR para Regata Solar de Marine
 
 ## PRÁCTICA 2
 * Lectura de voltaxe de INA219
-* Lectrua de corrente de INA219
+* Lectura de corrente de INA219
 * Cálculo de potencia
 
 ## PRÁCTICA 3
