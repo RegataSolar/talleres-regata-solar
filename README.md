@@ -15,4 +15,4 @@ Talleres impartidos en CETMAR para Regata Solar de Marine
 * Algoritmo de voltaxe constante
 
 ## PRÁCTICA 4
-* Algoritmo Perturb and Observ (P&O)
+* Algoritmo Perturb and Observe (P&O)
