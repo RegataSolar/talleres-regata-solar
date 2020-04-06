@@ -176,13 +176,13 @@ void print_telemetry(){
     Serial.print(",");
     switch (state) {
       case AVANCE:
-        Serial.println("AVANCE");          
+        Serial.println("100");          
       break;
       case LIMITADO:
-        Serial.println("LIMITADO");          
+        Serial.println("50");          
       break;
       case REVERSA:
-        Serial.println("REVERSA");          
+        Serial.println("0");          
       break;
     }
 }
