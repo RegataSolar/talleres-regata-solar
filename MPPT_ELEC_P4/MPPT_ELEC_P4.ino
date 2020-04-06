@@ -73,7 +73,7 @@ void setup() {
   PO_timer.start();
 
   po_enable = false; //indicamos que iniciamos en speed
-  //Serial.println("TX_PPM,Mode,ESC_PPM,Voltage,Current,Power");
+  Serial.println("TX_PPM,Mode,ESC_PPM,Voltage,Current,Power");
   delay(1000);
 
 }
@@ -236,7 +236,6 @@ ISR (PCINT1_vect){
 }
 
 void print_telemetry(){
-    /*
     Serial.print(speed);
     Serial.print(",");
     if(po_enable){
@@ -256,12 +255,4 @@ void print_telemetry(){
     Serial.print(i);
     Serial.print(",");
     Serial.println(p);
-    */
-    Serial.print(speed);
-    Serial.print(",");
-    Serial.print(v);
-    Serial.print(",");
-    Serial.print(i);
-    Serial.println();
-    
 }
